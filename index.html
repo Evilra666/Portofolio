@@ -5,33 +5,38 @@
     <link rel="stylesheet" href="./style.css"/>
     <script src="./script.js"></script>
   </head>
+  <div id="top"></div>
   <body>
-    <!-- Navigation Bar -->
-    <nav>
-      <div id="home">
-        <div class="profile_name">
-          Evilra
-          <div class="contact_info">
-            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          Multiverserebels@gmail.com
+      <nav>
+        <div id="home">
+          <div class="profile_name">
+            Evilra
+            <div class="contact_info">
+              <img src="html_finalprojimages/envelope.png" alt="Email Icon" />
+              Multiverserebels@gmail.com
+            </div>
+            <div class="contact_info">
+              <img src="html_finalprojimages/phone.png" alt="Phone Icon" />
+              +13456764598
+            </div>
+          </div>
+      
+          <div class="topdiv">
+            <a class="topmenu" href="#about-me">About Me</a>
+            <a class="topmenu" href="#skills">Skills</a>
+            <a class="topmenu" href="#projects">Projects</a>
+            <a class="topmenu" href="#recommendations">Recommendation</a>
+          </div>
         </div>
-        <div style="clear:both;"></div>
-        <div class="contact_info">
-          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          +13456764598
-
-        </div>
-        </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <a class="topmenu" href="#about-me">Skills</a>
-          <a class="topmenu" href="#about-me">Projects</a>
-          <a class="topmenu" href="#about-me">Recommendation</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
-
-        </div>
-      </div>    
-    </nav>
+      </nav>
+      </div>
+    <div class="iconbutton">
+      <a href="#top"> <img src="html_finalprojimages/home.png" alt="Back to top" style="width: 40px; height: 40px;">
+      </a>
+    </div>
+  
+  </body>
+    
 
     <!-- About Me -->
     <section id="about-me" class="container">
@@ -160,17 +165,12 @@
         </fieldset>
       </div>
     </section>
-
-    <div class="iconbutton">
-      <a href="#home">
-        <!--Add the code here for the logo to appear and the icon to be actionable-->
-      </a>
-    </div>
-
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here--></h3>
+    
+    <div id="popup" class="popup flex_center" style="display: none;">
+      <img src="html_finalprojimages/checkmark--outline.svg" alt="Checkmark" />
+      <h3>Thank you for your recommendation!</h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
+    
   </body>
 </html>

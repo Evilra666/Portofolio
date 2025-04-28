@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Arial', sans-serif; /* A more common and clean street style font */
   margin: 0; /* Reset default body margin */
@@ -342,7 +343,6 @@ button:hover {
   text-align: center;
   position: fixed;
   padding: 2em;
-  visibility: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
